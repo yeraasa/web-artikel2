@@ -1,0 +1,94 @@
+body{
+    background-color:  #FECEAB ;
+    font-family: 'Times New Roman', Times, serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E84A5F  ;
+    border-bottom: 1px black double;
+    margin-bottom: 10px;
+}
+nav img
+{
+    width: 90px;
+}
+nav h1
+{
+    margin-left: 3rem;
+
+}
+button {
+    margin-left: 90%;
+    width: 80px;
+    background-color: transparent;
+}
+.sub
+{
+    color: rgb(165, 164, 164);
+    margin-top: 5px;
+}
+.main
+{
+    margin-left: 60px;
+}
+.main p{
+    font-size: 20px;
+}
+.main img
+{
+    margin-top: 5px;
+    padding:20px;
+    width: 570px;
+    transition: .3s;
+}
+.main img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.fungsi{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.fungsi p{
+    font-size: 20px;
+}
+h4{
+    font-size: 25px;
+    justify-content: center;
+    background-color: #FF847C;
+}
+.kegunaan{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+li{
+    font-size: 20px;
+
+}
+.info img{
+    border-radius: 50%;
+    width: 50px;
+}
+.info
+{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.info h4
+{
+    margin-left: 20px;
+    background-color: transparent;
+}
+.info span{
+    color: red;
+}
